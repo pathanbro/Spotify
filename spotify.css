@@ -1,0 +1,97 @@
+*{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header li{
+    margin-top:20px;
+    margin-left:20px;
+    list-style-type: none;
+}
+
+.container{
+    min-height: 40vh;
+    background-color:black;
+    color: #fff;
+    display: flex;
+    margin: 23px auto;
+    width: 77%;
+    margin-top:-950px;
+    margin-left:300px;
+}
+
+.bottum{
+    position: sticky;
+    margin-top:500px;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top:15px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vh;
+}
+.songList{
+    margin-left:80vh;
+    margin-top:-600px;
+} 
+
+.songItem{
+    height: 300px;
+    display: flex;
+    margin-top:620px;
+    margin-bottom:20px;
+    margin-left:-520px;
+}
+.songItem img{
+    border-radius:10px;
+}
+.songItem span{
+    font-size:60px;
+    margin-left:-40px;
+    margin-top:80px;
+}
+
+.playButton1{
+   color: #000;
+   margin-top:250px;
+   margin-left:-110px;
+   padding-left:10px;
+   padding-right:10px;
+   color: #fff;
+   border: solid 2px black;
+   background-color: #006b39;
+   cursor: pointer;
+}
+
+.playButton2{
+    color: #000;
+    margin-top:250px;
+    margin-left:5px;
+    padding-left:10px;
+    padding-right:10px;
+    color: #fff;
+    border: solid 2px black;
+    background-color: #006b39;
+    cursor: pointer;
+ }
+ .playButton1:hover{
+    background-color: #fff;
+    color: #000;
+ }
+ .playButton2:hover{
+    background-color: #fff;
+    color: #000;
+ }
